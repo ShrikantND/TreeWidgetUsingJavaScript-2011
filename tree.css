@@ -1,0 +1,135 @@
+.tbl_class {
+    height: 20px;
+    width: 100%;
+    border: solid 0px #c0c0c0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.node_td_class {
+    height: 20px;
+    cursor: pointer;
+    vertical-align: center;
+    text-align: left;
+}
+
+.selected_node {
+    height: 20px;
+    cursor: pointer;
+    border: solid 0px white;
+    background-color: #6495ED;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px;
+}
+
+.unselected_node {
+    height: 20px;
+    cursor: pointer;
+    border: solid 0px white;
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 0px;
+}
+
+.new_nodeDiv {
+    width: 100%;
+    height: 20px;
+    border: solid 0px white;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.new_containerDiv {
+    width: 100%;
+    border: solid 0px white;
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 0px;
+    display: none;
+}
+
+.empty_td {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+}
+
+.no_icon {
+    height: 20px;
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.node_icon {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.node_title {
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.st_line {
+    height: 20px;
+    width: 20px;
+    background: url('../images/c_tree_st.gif') 0 0 no-repeat;
+    ;
+    padding: 0px;
+}
+
+
+
+.folder_true_plus {
+    height: 20px;
+    width: 20px;
+    background: url('../images/c_tree_expand_plus.gif') 0 0 no-repeat;
+    ;
+    padding: 0px;
+}
+
+.folder_true_minus {
+    height: 20px;
+    width: 20px;
+    background: url('../images/c_tree_expand_minus.gif') 0 0 no-repeat;
+    ;
+    padding: 0px;
+}
+
+
+.folder_false_last_child {
+    height: 20px;
+    width: 20px;
+    background: url('../images/c_tree_lastchild.gif') 0 0 no-repeat;
+    ;
+    padding: 0px;
+}
+
+.folder_false_middle_child {
+    height: 20px;
+    width: 20px;
+    background: url('../images/c_tree_middle.gif') 0 0 no-repeat;
+    ;
+    padding: 0px;
+}
